@@ -139,17 +139,17 @@ useEffect(() => {
          className="flex fixed  justify-center items-center w-screen h-[100vh] bg-white">
 
             <div className="w-1/2">
-                <h1 className="text-[64px] font-bold italic">Freeing Humans to Do What Matters</h1>
-                <p className="font-medium text-[40px] text-[#6f6f6f]">Tvara was born to free people from repetitive, draining tasks, so they can focus on decisions that truly matter.</p>
+                <h1 className="text-[4rem] font-bold italic">Freeing Humans to Do What Matters</h1>
+                <p className="font-medium text-[2.5rem] text-[#6f6f6f]">Tvara was born to free people from repetitive, draining tasks, so they can focus on decisions that truly matter.</p>
             </div>
             <div>
-                <img src="https://ik.imagekit.io/jwt52yyie/logo.svg?updatedAt=1757712060003" className="w-[565px] h-[512px]" alt="" />
+                <img src="https://ik.imagekit.io/jwt52yyie/logo.svg?updatedAt=1757712060003" className="w-[35.313rem] h-[32rem]" alt="" />
             </div>
 
         </div>
         <div ref={bgref} className="absolute top-0 left-0 z-10 w-[100vw] h-[100vh] overflow-hidden bg-black ">
       <div ref={textref} className="flex flex-row items-start justify-between p-4 ">
-        <div  className="text-[#0f0f0f] text-[128px] font-semibold w-auto relative -z-10">
+        <div  className="text-[#0f0f0f] text-[8rem] font-semibold w-auto relative -z-10">
           <h1 className="m-0 leading-none">Tvara Thinking</h1>
           <h1 className="m-0 leading-none">Tvara Thinking</h1>
           <h1 className="m-0 leading-none">Tvara Thinking</h1>
@@ -157,44 +157,44 @@ useEffect(() => {
         </div>
 
         <div className="relative items-end text-end">
-          <h1 className="text-white text-[64px] font-[600] italic m-0 leading-none">
+          <h1 className="text-white text-[4rem] font-[600] italic m-0 leading-none">
             We believe in
           </h1>
 
-          <div className="relative h-[140px] w-[500px]">
+          <div className="relative h-[8.75rem] w-[31.25rem]">
             <h1
               ref={(el) => (langRef.current[0] = el)}
-              className="font-bold text-white text-[128px] m-0 leading-none w-auto absolute inset-0"
+              className="font-bold text-white text-[8rem] m-0 leading-none w-auto absolute inset-0"
             >
               त्वरा
             </h1>
             <h1
               ref={(el) => (langRef.current[1] = el)}
-              className="font-bold text-white text-[128px] m-0 leading-none absolute inset-0"
+              className="font-bold text-white text-[8rem] m-0 leading-none absolute inset-0"
             >
               トヴァ
             </h1>
             <h1
               ref={(el) => (langRef.current[2] = el)}
-              className="font-bold text-white text-[128px] m-0 leading-none absolute inset-0"
+              className="font-bold text-white text-[8rem] m-0 leading-none absolute inset-0"
             >
               ત્વરા
             </h1>
             <h1
               ref={(el) => (langRef.current[3] = el)}
-              className="font-bold text-white text-[128px] m-0 leading-none absolute inset-0"
+              className="font-bold text-white text-[8rem] m-0 leading-none absolute inset-0"
             >
               ত্বরা
             </h1>
             <h1
               ref={(el) => (langRef.current[4] = el)}
-              className="font-bold text-white text-[128px] m-0 leading-none absolute inset-0"
+              className="font-bold text-white text-[8rem] m-0 leading-none absolute inset-0"
             >
               ತ್ವರಾ
             </h1>
           </div>
 
-          <h1 className="text-white text-[64px] font-[600] italic m-0 leading-none">
+          <h1 className="text-white text-[4rem] font-[600] italic m-0 leading-none">
             Thinking
           </h1>
         </div>
